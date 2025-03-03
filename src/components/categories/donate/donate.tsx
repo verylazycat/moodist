@@ -14,13 +14,13 @@ export function Donate() {
         </div>
       </div>
 
-      <div className={styles.title}>Support Me</div>
-      <p className={styles.desc}>Help me keep Moodist ad-free.</p>
+      <div className={styles.title}>Free</div>
+      <p className={styles.desc}>Enjoy</p>
       <SpecialButton
         className={styles.button}
-        href="https://buymeacoffee.com/remvze"
+        href="https://www.flyday.top/"
       >
-        Donate Today
+        blog
       </SpecialButton>
     </div>
   );
