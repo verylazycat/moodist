@@ -30,11 +30,19 @@ const description =
     <meta content={title} property="og:title" />
     <meta content={description} property="og:description" />
     <meta content="Moodist" property="og:site_name" />
-    <meta content="https://moodist.app" property="og:url" />
+    <meta content="https://moodist.flyday.top/" property="og:url" />
     <meta content="website" property="og:type" />
-    <meta content="https://moodist.app/og.png" property="og:image" />
+    <meta content="https://moodist.flyday.top/og.png" property="og:image" />
 
     <meta content="summary_large_image" name="twitter:card" />
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LKBX051RF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8LKBX051RF');
+    </script>
   </head>
   <body>
     <slot />
