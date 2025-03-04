@@ -5,9 +5,9 @@ import { Item } from '../item';
 export function Donate() {
   return (
     <Item
-      href="https://buymeacoffee.com/remvze"
+      href="https://www.flyday.top/"
       icon={<SiBuymeacoffee />}
-      label="Buy Me a Coffee"
+      label="Free Enjoy"
     />
   );
 }
